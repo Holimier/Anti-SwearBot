@@ -65,4 +65,4 @@ bot.on("ready", () => {
     console.log("Listo!")
     bot.user.setUsername("Anti-SwearBot");
 });
-bot.login(process.env.BOT_TOKEN);
+bot.login("BOT_TOKEN");
